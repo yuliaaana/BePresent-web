@@ -1,0 +1,903 @@
+2025-04-08 12:58:24.438 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Login.cshtml'.
+2025-04-08 12:58:24.571 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Register.cshtml'.
+2025-04-08 12:58:24.574 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Welcome.cshtml'.
+2025-04-08 12:58:24.576 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-08 12:58:24.578 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-08 12:58:24.580 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-08 12:58:24.583 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Login.cshtml'.
+2025-04-08 12:58:24.585 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Register.cshtml'.
+2025-04-08 12:58:24.588 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-08 12:58:24.589 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Create.cshtml'.
+2025-04-08 12:58:24.592 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Index.cshtml'.
+2025-04-08 12:58:24.594 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-08 12:58:24.596 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-08 12:58:24.600 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-08 12:58:24.630 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-08 12:58:24.873 +03:00 [DBG] Hosting starting
+2025-04-08 12:58:24.965 +03:00 [INF] User profile is available. Using 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 12:58:25.003 +03:00 [DBG] Reading data from file 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys\key-3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce.xml'.
+2025-04-08 12:58:25.099 +03:00 [DBG] Found key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce}.
+2025-04-08 12:58:25.132 +03:00 [DBG] Considering key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} with expiration date 2025-06-08 18:53:25Z as default key.
+2025-04-08 12:58:25.140 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 12:58:25.148 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-08 12:58:25.154 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 12:58:25.168 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-08 12:58:25.175 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-08 12:58:25.181 +03:00 [DBG] Using key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} as the default key.
+2025-04-08 12:58:25.186 +03:00 [DBG] Key ring with default key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} was loaded during application startup.
+2025-04-08 12:58:25.214 +03:00 [DBG] Middleware loaded
+2025-04-08 12:58:25.221 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-04-08 12:58:25.226 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-08 12:58:25.353 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-08 12:58:25.357 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-08 12:58:25.363 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-08 12:58:25.468 +03:00 [INF] Now listening on: http://localhost:5056
+2025-04-08 12:58:25.471 +03:00 [DBG] Loaded hosting startup assembly BePresent.Web
+2025-04-08 12:58:25.473 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-08 12:58:25.475 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-08 12:58:25.478 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-08 12:58:25.494 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 12:58:25.500 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 12:58:25.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 12:58:25.636 +03:00 [INF] Hosting environment: Development
+2025-04-08 12:58:25.639 +03:00 [INF] Content root path: C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Web
+2025-04-08 12:58:25.641 +03:00 [DBG] Hosting started
+2025-04-08 12:58:25.786 +03:00 [DBG] Connection id "0HNBMGFJSEADP" accepted.
+2025-04-08 12:58:25.786 +03:00 [DBG] Connection id "0HNBMGFJSEADO" accepted.
+2025-04-08 12:58:25.838 +03:00 [DBG] Connection id "0HNBMGFJSEADP" started.
+2025-04-08 12:58:25.854 +03:00 [DBG] Connection id "0HNBMGFJSEADO" started.
+2025-04-08 12:58:25.867 +03:00 [DBG] Connection id "0HNBMGFJSEADO" received FIN.
+2025-04-08 12:58:25.867 +03:00 [DBG] Connection id "0HNBMGFJSEADP" received FIN.
+2025-04-08 12:58:25.883 +03:00 [DBG] Connection id "0HNBMGFJSEADP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:58:25.883 +03:00 [DBG] Connection id "0HNBMGFJSEADO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:58:25.890 +03:00 [DBG] Connection id "0HNBMGFJSEADP" disconnecting.
+2025-04-08 12:58:25.893 +03:00 [DBG] Connection id "0HNBMGFJSEADO" disconnecting.
+2025-04-08 12:58:25.901 +03:00 [DBG] Connection id "0HNBMGFJSEADP" stopped.
+2025-04-08 12:58:25.901 +03:00 [DBG] Connection id "0HNBMGFJSEADO" stopped.
+2025-04-08 12:58:26.254 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" accepted.
+2025-04-08 12:58:26.257 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" started.
+2025-04-08 12:58:26.276 +03:00 [DBG] Connection id "0HNBMGFJSEADR" accepted.
+2025-04-08 12:58:26.279 +03:00 [DBG] Connection id "0HNBMGFJSEADR" started.
+2025-04-08 12:58:26.326 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/ - null null
+2025-04-08 12:58:26.401 +03:00 [DBG] The request path / does not match a supported file type
+2025-04-08 12:58:26.442 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-08 12:58:26.447 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/'
+2025-04-08 12:58:26.463 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" received FIN.
+2025-04-08 12:58:26.463 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:58:26.467 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:58:26.472 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" disconnecting.
+2025-04-08 12:58:26.475 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:58:26.588 +03:00 [INF] Route matched with {action = "Login", controller = "AuthMvc"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 12:58:26.597 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 12:58:26.602 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:58:26.607 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 12:58:26.612 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 12:58:26.617 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:58:26.627 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:58:27.762 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-08 12:58:27.814 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:58:27.829 +03:00 [DBG] View lookup cache miss for view 'Login' in controller 'AuthMvc'.
+2025-04-08 12:58:27.855 +03:00 [INF] Executing ViewResult, running view Login.
+2025-04-08 12:58:27.881 +03:00 [DBG] The view path '/Views/AuthMvc/Login.cshtml' was found in 49.4615ms.
+2025-04-08 12:58:28.000 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 12:58:28.010 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 12:58:28.016 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 12:58:28.037 +03:00 [DBG] A new antiforgery cookie token was created.
+2025-04-08 12:58:28.087 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 12:58:28.093 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 12:58:28.099 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 12:58:28.105 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 12:58:28.197 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:58:28.201 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:58:28.205 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:58:28.210 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:58:28.213 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:58:28.220 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:58:28.232 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:58:28.235 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:58:28.238 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:58:28.241 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:58:28.245 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:58:28.249 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:58:28.315 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 12:58:28.323 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 12:58:28.332 +03:00 [INF] Executed ViewResult - view Login executed in 505.7446ms.
+2025-04-08 12:58:28.336 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web) in 1714.4338ms
+2025-04-08 12:58:28.339 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:58:28.342 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 12:58:28.345 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 12:58:28.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/ - 200 null text/html; charset=utf-8 2042.5432ms
+2025-04-08 12:58:28.361 +03:00 [DBG] Connection id "0HNBMGFJSEADQ" stopped.
+2025-04-08 12:58:34.809 +03:00 [DBG] Connection id "0HNBMGFJSEADR" received FIN.
+2025-04-08 12:58:34.817 +03:00 [DBG] Connection id "0HNBMGFJSEADR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:58:34.822 +03:00 [DBG] Connection id "0HNBMGFJSEADR" disconnecting.
+2025-04-08 12:58:34.826 +03:00 [DBG] Connection id "0HNBMGFJSEADR" stopped.
+2025-04-08 12:59:10.938 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Login.cshtml'.
+2025-04-08 12:59:11.040 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Register.cshtml'.
+2025-04-08 12:59:11.045 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Welcome.cshtml'.
+2025-04-08 12:59:11.049 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-08 12:59:11.053 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-08 12:59:11.056 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-08 12:59:11.059 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Login.cshtml'.
+2025-04-08 12:59:11.062 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Register.cshtml'.
+2025-04-08 12:59:11.065 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-08 12:59:11.068 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Create.cshtml'.
+2025-04-08 12:59:11.071 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Index.cshtml'.
+2025-04-08 12:59:11.073 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-08 12:59:11.076 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-08 12:59:11.079 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-08 12:59:11.104 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-08 12:59:11.316 +03:00 [DBG] Hosting starting
+2025-04-08 12:59:11.382 +03:00 [INF] User profile is available. Using 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 12:59:11.416 +03:00 [DBG] Reading data from file 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys\key-3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce.xml'.
+2025-04-08 12:59:11.431 +03:00 [DBG] Found key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce}.
+2025-04-08 12:59:11.452 +03:00 [DBG] Considering key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} with expiration date 2025-06-08 18:53:25Z as default key.
+2025-04-08 12:59:11.460 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 12:59:11.467 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-08 12:59:11.471 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 12:59:11.483 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-08 12:59:11.488 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-08 12:59:11.495 +03:00 [DBG] Using key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} as the default key.
+2025-04-08 12:59:11.499 +03:00 [DBG] Key ring with default key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} was loaded during application startup.
+2025-04-08 12:59:11.516 +03:00 [DBG] Middleware loaded
+2025-04-08 12:59:11.532 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-04-08 12:59:11.538 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-08 12:59:11.622 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-08 12:59:11.627 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-08 12:59:11.633 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-08 12:59:11.712 +03:00 [INF] Now listening on: http://localhost:5056
+2025-04-08 12:59:11.715 +03:00 [DBG] Loaded hosting startup assembly BePresent.Web
+2025-04-08 12:59:11.718 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-08 12:59:11.720 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-08 12:59:11.723 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-08 12:59:11.739 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 12:59:11.743 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 12:59:11.879 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 12:59:11.882 +03:00 [INF] Hosting environment: Development
+2025-04-08 12:59:11.883 +03:00 [INF] Content root path: C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Web
+2025-04-08 12:59:11.886 +03:00 [DBG] Hosting started
+2025-04-08 12:59:11.970 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" accepted.
+2025-04-08 12:59:11.970 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" accepted.
+2025-04-08 12:59:11.985 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" started.
+2025-04-08 12:59:11.987 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" received FIN.
+2025-04-08 12:59:11.987 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" received FIN.
+2025-04-08 12:59:11.998 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" started.
+2025-04-08 12:59:12.010 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:12.010 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:12.019 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" disconnecting.
+2025-04-08 12:59:12.022 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" disconnecting.
+2025-04-08 12:59:12.029 +03:00 [DBG] Connection id "0HNBMGG1KSGBH" stopped.
+2025-04-08 12:59:12.029 +03:00 [DBG] Connection id "0HNBMGG1KSGBI" stopped.
+2025-04-08 12:59:12.942 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" accepted.
+2025-04-08 12:59:12.945 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" started.
+2025-04-08 12:59:12.968 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" accepted.
+2025-04-08 12:59:12.973 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" started.
+2025-04-08 12:59:13.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/ - null null
+2025-04-08 12:59:13.111 +03:00 [DBG] The request path / does not match a supported file type
+2025-04-08 12:59:13.152 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-08 12:59:13.157 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/'
+2025-04-08 12:59:13.163 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:13.171 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:13.267 +03:00 [INF] Route matched with {action = "Login", controller = "AuthMvc"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 12:59:13.275 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 12:59:13.279 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:59:13.285 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 12:59:13.292 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 12:59:13.314 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:59:13.322 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:59:13.685 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-08 12:59:13.734 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:59:13.752 +03:00 [DBG] View lookup cache miss for view 'Login' in controller 'AuthMvc'.
+2025-04-08 12:59:13.771 +03:00 [INF] Executing ViewResult, running view Login.
+2025-04-08 12:59:13.779 +03:00 [DBG] The view path '/Views/AuthMvc/Login.cshtml' was found in 28.3803ms.
+2025-04-08 12:59:13.887 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 12:59:13.897 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 12:59:13.905 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 12:59:13.928 +03:00 [DBG] A new antiforgery cookie token was created.
+2025-04-08 12:59:13.975 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 12:59:13.981 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 12:59:13.986 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 12:59:13.992 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 12:59:14.051 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:59:14.056 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:59:14.059 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:59:14.064 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:59:14.068 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:59:14.072 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:59:14.076 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:59:14.080 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:59:14.088 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:59:14.094 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:59:14.098 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:59:14.102 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:59:14.123 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 12:59:14.135 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 12:59:14.149 +03:00 [INF] Executed ViewResult - view Login executed in 403.1254ms.
+2025-04-08 12:59:14.155 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web) in 836.8797ms
+2025-04-08 12:59:14.159 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:14.164 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 12:59:14.169 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 12:59:14.175 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" completed keep alive response.
+2025-04-08 12:59:14.185 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/ - 200 null text/html; charset=utf-8 1162.9431ms
+2025-04-08 12:59:14.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 12:59:14.255 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 12:59:14.258 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" completed keep alive response.
+2025-04-08 12:59:14.260 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 17.546ms
+2025-04-08 12:59:14.447 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 12:59:14.555 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" completed keep alive response.
+2025-04-08 12:59:14.557 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.9367ms
+2025-04-08 12:59:14.870 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" received FIN.
+2025-04-08 12:59:14.870 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" received FIN.
+2025-04-08 12:59:14.874 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:14.876 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:15.726 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" disconnecting.
+2025-04-08 12:59:15.729 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" disconnecting.
+2025-04-08 12:59:15.734 +03:00 [DBG] Connection id "0HNBMGG1KSGBJ" stopped.
+2025-04-08 12:59:15.735 +03:00 [DBG] Connection id "0HNBMGG1KSGBK" stopped.
+2025-04-08 12:59:20.530 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" accepted.
+2025-04-08 12:59:20.533 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" started.
+2025-04-08 12:59:20.538 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5056/ - application/x-www-form-urlencoded 239
+2025-04-08 12:59:20.540 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" accepted.
+2025-04-08 12:59:20.548 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" started.
+2025-04-08 12:59:20.548 +03:00 [DBG] POST requests are not supported
+2025-04-08 12:59:20.553 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-08 12:59:20.557 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/'
+2025-04-08 12:59:20.562 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:20.566 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:20.597 +03:00 [INF] Route matched with {action = "Login", controller = "AuthMvc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BePresent.Application.DTOs.UserLoginDto) on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 12:59:20.601 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 12:59:20.606 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:59:20.610 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 12:59:20.615 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 12:59:20.620 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 12:59:20.624 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:59:20.642 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 12:59:20.659 +03:00 [DBG] Connection id "0HNBMGG1KSGBL", Request id "0HNBMGG1KSGBL:00000001": started reading request body.
+2025-04-08 12:59:20.664 +03:00 [DBG] Connection id "0HNBMGG1KSGBL", Request id "0HNBMGG1KSGBL:00000001": done reading request body.
+2025-04-08 12:59:20.679 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' ...
+2025-04-08 12:59:20.690 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' using the name '' in request data ...
+2025-04-08 12:59:20.701 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Email' of type 'System.String' using the name 'Email' in request data ...
+2025-04-08 12:59:20.709 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Email' of type 'System.String'.
+2025-04-08 12:59:20.717 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Password' of type 'System.String' using the name 'Password' in request data ...
+2025-04-08 12:59:20.724 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Password' of type 'System.String'.
+2025-04-08 12:59:20.730 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 12:59:20.733 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 12:59:20.737 +03:00 [DBG] Attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' ...
+2025-04-08 12:59:20.751 +03:00 [DBG] Done attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 12:59:20.762 +03:00 [INF] Attempting to login user with email: yuli@gmail.com
+2025-04-08 12:59:22.125 +03:00 [DBG] The property 'Gift.ReservedUserUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-04-08 12:59:22.353 +03:00 [DBG] Entity Framework Core 9.0.3 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-04-08 12:59:22.420 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __dto_Email_0)'
+2025-04-08 12:59:22.994 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.DateOfBirth (DateTime?), 1], [Property: User.Email (string), 2], [Property: User.Gender (string), 3], [Property: User.Interests (List<string>) Element type: string Required, 4], [Property: User.IsAuthorized (bool) Required, 5], [Property: User.Password (string) Required, 6], [Property: User.Username (string) Required, 7] }
+            SELECT TOP(1) u.UserId, u.DateOfBirth, u.Email, u.Gender, u.Interests, u.IsAuthorized, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__dto_Email_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.DateOfBirth (DateTime?), 1], [Property: User.Email (string), 2], [Property: User.Gender (string), 3], [Property: User.Interests (List<string>) Element type: string Required, 4], [Property: User.IsAuthorized (bool) Required, 5], [Property: User.Password (string) Required, 6], [Property: User.Username (string) Required, 7] }
+            SELECT TOP(1) u.UserId, u.DateOfBirth, u.Email, u.Gender, u.Interests, u.IsAuthorized, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__dto_Email_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("BePresent.Domain.Users.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("BePresent.Domain.Users.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("BePresent.Domain.Users.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<DateOfBirth>k__BackingField = dataReader.IsDBNull(1) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Gender>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    {
+                                        List<string> namelessParameter{2};
+                                        namelessParameter{2} = instance.<Interests>k__BackingField;
+                                        namelessParameter{2} == null || dataReader.IsDBNull(4) ? default(List<string>) : dataReader.GetFieldValue<List<string>>(4) == null || namelessParameter{2}.IsReadOnly ? instance.<Interests>k__BackingField = dataReader.IsDBNull(4) ? default(List<string>) : dataReader.GetFieldValue<List<string>>(4) : EntityMaterializerSource.PopulateList<string>(
+                                            buffer: dataReader.IsDBNull(4) ? default(List<string>) : dataReader.GetFieldValue<List<string>>(4), 
+                                            target: namelessParameter{2});
+                                    }instance.<IsAuthorized>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<Password>k__BackingField = dataReader.GetString(6);
+                                    instance.<Username>k__BackingField = dataReader.GetString(7);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("BePresent.Domain.Users.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: BePresent.Infrastructure.AppData.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-04-08 12:59:23.089 +03:00 [DBG] Creating DbConnection.
+2025-04-08 12:59:23.165 +03:00 [DBG] Created DbConnection. (74ms).
+2025-04-08 12:59:23.174 +03:00 [DBG] Opening connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 12:59:23.575 +03:00 [DBG] Opened connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 12:59:23.585 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-08 12:59:23.601 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2025-04-08 12:59:23.612 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (27ms).
+2025-04-08 12:59:23.631 +03:00 [DBG] Executing DbCommand [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."DateOfBirth", u."Email", u."Gender", u."Interests", u."IsAuthorized", u."Password", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__dto_Email_0
+LIMIT 1
+2025-04-08 12:59:23.779 +03:00 [INF] Executed DbCommand (144ms) [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."DateOfBirth", u."Email", u."Gender", u."Interests", u."IsAuthorized", u."Password", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__dto_Email_0
+LIMIT 1
+2025-04-08 12:59:23.898 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-08 12:59:23.954 +03:00 [DBG] Closing data reader to 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 12:59:23.973 +03:00 [DBG] A data reader for 'bePresent' on server 'tcp://localhost:5432' is being disposed after spending 179ms reading results.
+2025-04-08 12:59:23.984 +03:00 [DBG] Closing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 12:59:23.998 +03:00 [DBG] Closed connection to database 'bePresent' on server 'tcp://localhost:5432' (13ms).
+2025-04-08 12:59:24.006 +03:00 [WRN] Login failed for email: yuli@gmail.com
+2025-04-08 12:59:24.013 +03:00 [DBG] View lookup cache hit for view 'Login' in controller 'AuthMvc'.
+2025-04-08 12:59:24.017 +03:00 [INF] Executing ViewResult, running view Login.
+2025-04-08 12:59:24.019 +03:00 [DBG] The view path '/Views/AuthMvc/Login.cshtml' was found in 6.9846ms.
+2025-04-08 12:59:24.027 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 12:59:24.031 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 12:59:24.035 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 12:59:24.050 +03:00 [DBG] An antiforgery cookie token was reused.
+2025-04-08 12:59:24.055 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 12:59:24.059 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 12:59:24.062 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 12:59:24.066 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 12:59:24.072 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:59:24.076 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:59:24.079 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:59:24.084 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 12:59:24.087 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 12:59:24.091 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 12:59:24.095 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:59:24.099 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:59:24.106 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:59:24.110 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 12:59:24.114 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 12:59:24.119 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 12:59:24.123 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 12:59:24.125 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 12:59:24.127 +03:00 [INF] Executed ViewResult - view Login executed in 114.8227ms.
+2025-04-08 12:59:24.137 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web) in 3511.4466ms
+2025-04-08 12:59:24.144 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 12:59:24.149 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 12:59:24.151 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 12:59:24.154 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" completed keep alive response.
+2025-04-08 12:59:24.159 +03:00 [DBG] 'AppDbContext' disposed.
+2025-04-08 12:59:24.168 +03:00 [DBG] Disposing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 12:59:24.177 +03:00 [DBG] Disposed connection to database 'bePresent' on server 'tcp://localhost:5432' (8ms).
+2025-04-08 12:59:24.182 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5056/ - 200 null text/html; charset=utf-8 3644.4864ms
+2025-04-08 12:59:24.209 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 12:59:24.225 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 12:59:24.233 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" completed keep alive response.
+2025-04-08 12:59:24.242 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 12:59:24.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2826ms
+2025-04-08 12:59:24.248 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" completed keep alive response.
+2025-04-08 12:59:24.260 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 34.7848ms
+2025-04-08 12:59:24.887 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" received FIN.
+2025-04-08 12:59:24.887 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" received FIN.
+2025-04-08 12:59:24.890 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:24.893 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 12:59:24.896 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" disconnecting.
+2025-04-08 12:59:24.900 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" disconnecting.
+2025-04-08 12:59:24.902 +03:00 [DBG] Connection id "0HNBMGG1KSGBL" stopped.
+2025-04-08 12:59:24.905 +03:00 [DBG] Connection id "0HNBMGG1KSGBM" stopped.
+2025-04-08 13:00:01.778 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" accepted.
+2025-04-08 13:00:01.788 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" accepted.
+2025-04-08 13:00:01.788 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" started.
+2025-04-08 13:00:01.798 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" started.
+2025-04-08 13:00:01.808 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5056/ - application/x-www-form-urlencoded 218
+2025-04-08 13:00:01.821 +03:00 [DBG] POST requests are not supported
+2025-04-08 13:00:01.824 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-08 13:00:01.827 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/'
+2025-04-08 13:00:01.831 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:00:01.834 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:00:01.837 +03:00 [INF] Route matched with {action = "Login", controller = "AuthMvc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BePresent.Application.DTOs.UserLoginDto) on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 13:00:01.842 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 13:00:01.845 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:00:01.848 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 13:00:01.851 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 13:00:01.855 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:00:01.859 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:00:01.867 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:00:01.871 +03:00 [DBG] Connection id "0HNBMGG1KSGBN", Request id "0HNBMGG1KSGBN:00000001": started reading request body.
+2025-04-08 13:00:01.874 +03:00 [DBG] Connection id "0HNBMGG1KSGBN", Request id "0HNBMGG1KSGBN:00000001": done reading request body.
+2025-04-08 13:00:01.878 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' ...
+2025-04-08 13:00:01.881 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' using the name '' in request data ...
+2025-04-08 13:00:01.884 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Email' of type 'System.String' using the name 'Email' in request data ...
+2025-04-08 13:00:01.888 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Email' of type 'System.String'.
+2025-04-08 13:00:01.892 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Password' of type 'System.String' using the name 'Password' in request data ...
+2025-04-08 13:00:01.897 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserLoginDto.Password' of type 'System.String'.
+2025-04-08 13:00:01.901 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 13:00:01.905 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 13:00:01.908 +03:00 [DBG] Attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto' ...
+2025-04-08 13:00:01.912 +03:00 [DBG] Done attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserLoginDto'.
+2025-04-08 13:00:01.916 +03:00 [INF] Attempting to login user with email: yuli@gail.com
+2025-04-08 13:00:01.955 +03:00 [DBG] Entity Framework Core 9.0.3 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-04-08 13:00:01.969 +03:00 [DBG] Creating DbConnection.
+2025-04-08 13:00:01.973 +03:00 [DBG] Created DbConnection. (3ms).
+2025-04-08 13:00:01.976 +03:00 [DBG] Opening connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:00:01.980 +03:00 [DBG] Opened connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:00:01.984 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-08 13:00:01.987 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-04-08 13:00:01.996 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2025-04-08 13:00:02.001 +03:00 [DBG] Executing DbCommand [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."DateOfBirth", u."Email", u."Gender", u."Interests", u."IsAuthorized", u."Password", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__dto_Email_0
+LIMIT 1
+2025-04-08 13:00:02.009 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."DateOfBirth", u."Email", u."Gender", u."Interests", u."IsAuthorized", u."Password", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__dto_Email_0
+LIMIT 1
+2025-04-08 13:00:02.016 +03:00 [DBG] Closing data reader to 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:00:02.020 +03:00 [DBG] A data reader for 'bePresent' on server 'tcp://localhost:5432' is being disposed after spending 4ms reading results.
+2025-04-08 13:00:02.024 +03:00 [DBG] Closing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:00:02.028 +03:00 [DBG] Closed connection to database 'bePresent' on server 'tcp://localhost:5432' (3ms).
+2025-04-08 13:00:02.032 +03:00 [WRN] Login failed for email: yuli@gail.com
+2025-04-08 13:00:02.035 +03:00 [DBG] View lookup cache hit for view 'Login' in controller 'AuthMvc'.
+2025-04-08 13:00:02.038 +03:00 [INF] Executing ViewResult, running view Login.
+2025-04-08 13:00:02.041 +03:00 [DBG] The view path '/Views/AuthMvc/Login.cshtml' was found in 6.2891ms.
+2025-04-08 13:00:02.045 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 13:00:02.049 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 13:00:02.053 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 13:00:02.058 +03:00 [DBG] An antiforgery cookie token was reused.
+2025-04-08 13:00:02.061 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 13:00:02.066 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 13:00:02.071 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 13:00:02.075 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 13:00:02.079 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:00:02.082 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:00:02.086 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:00:02.091 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:00:02.095 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:00:02.100 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:00:02.104 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:00:02.109 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:00:02.113 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:00:02.117 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:00:02.121 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:00:02.125 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:00:02.129 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 13:00:02.132 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 13:00:02.133 +03:00 [INF] Executed ViewResult - view Login executed in 98.5946ms.
+2025-04-08 13:00:02.136 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web) in 277.8906ms
+2025-04-08 13:00:02.139 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:00:02.142 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 13:00:02.145 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 13:00:02.147 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" completed keep alive response.
+2025-04-08 13:00:02.150 +03:00 [DBG] 'AppDbContext' disposed.
+2025-04-08 13:00:02.152 +03:00 [DBG] Disposing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:00:02.157 +03:00 [DBG] Disposed connection to database 'bePresent' on server 'tcp://localhost:5432' (4ms).
+2025-04-08 13:00:02.161 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5056/ - 200 null text/html; charset=utf-8 353.6529ms
+2025-04-08 13:00:02.197 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 13:00:02.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 13:00:02.221 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 13:00:02.225 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" completed keep alive response.
+2025-04-08 13:00:02.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 16.5327ms
+2025-04-08 13:00:02.229 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" completed keep alive response.
+2025-04-08 13:00:02.238 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.2475ms
+2025-04-08 13:00:04.933 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" received FIN.
+2025-04-08 13:00:04.934 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" received FIN.
+2025-04-08 13:00:04.943 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:00:04.947 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:00:04.951 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" disconnecting.
+2025-04-08 13:00:04.953 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" disconnecting.
+2025-04-08 13:00:04.960 +03:00 [DBG] Connection id "0HNBMGG1KSGBO" stopped.
+2025-04-08 13:00:04.965 +03:00 [DBG] Connection id "0HNBMGG1KSGBN" stopped.
+2025-04-08 13:00:54.245 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" accepted.
+2025-04-08 13:00:54.250 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" started.
+2025-04-08 13:00:54.256 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" accepted.
+2025-04-08 13:00:54.265 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" started.
+2025-04-08 13:00:54.966 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" received FIN.
+2025-04-08 13:00:54.976 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" disconnecting.
+2025-04-08 13:00:54.966 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" received FIN.
+2025-04-08 13:00:54.982 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:00:54.996 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" disconnecting.
+2025-04-08 13:00:55.010 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:00:55.022 +03:00 [DBG] Connection id "0HNBMGG1KSGBQ" stopped.
+2025-04-08 13:00:55.022 +03:00 [DBG] Connection id "0HNBMGG1KSGBP" stopped.
+2025-04-08 13:01:04.799 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Login.cshtml'.
+2025-04-08 13:01:04.912 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Register.cshtml'.
+2025-04-08 13:01:04.915 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/AuthMvc/Welcome.cshtml'.
+2025-04-08 13:01:04.918 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-08 13:01:04.919 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-08 13:01:04.921 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-08 13:01:04.924 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Login.cshtml'.
+2025-04-08 13:01:04.926 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Register.cshtml'.
+2025-04-08 13:01:04.929 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-08 13:01:04.932 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Create.cshtml'.
+2025-04-08 13:01:04.934 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Users/Index.cshtml'.
+2025-04-08 13:01:04.937 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-08 13:01:04.941 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-08 13:01:04.947 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-08 13:01:04.982 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-08 13:01:05.160 +03:00 [DBG] Hosting starting
+2025-04-08 13:01:05.230 +03:00 [INF] User profile is available. Using 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-08 13:01:05.264 +03:00 [DBG] Reading data from file 'C:\Users\Юліана\AppData\Local\ASP.NET\DataProtection-Keys\key-3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce.xml'.
+2025-04-08 13:01:05.282 +03:00 [DBG] Found key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce}.
+2025-04-08 13:01:05.303 +03:00 [DBG] Considering key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} with expiration date 2025-06-08 18:53:25Z as default key.
+2025-04-08 13:01:05.312 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 13:01:05.321 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-08 13:01:05.326 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-08 13:01:05.339 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-08 13:01:05.344 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-08 13:01:05.350 +03:00 [DBG] Using key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} as the default key.
+2025-04-08 13:01:05.354 +03:00 [DBG] Key ring with default key {3ea2c666-5e5d-47e3-9eb0-e7fcd7e0f5ce} was loaded during application startup.
+2025-04-08 13:01:05.372 +03:00 [DBG] Middleware loaded
+2025-04-08 13:01:05.393 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-04-08 13:01:05.398 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-08 13:01:05.478 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-08 13:01:05.483 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-08 13:01:05.488 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-08 13:01:05.558 +03:00 [INF] Now listening on: http://localhost:5056
+2025-04-08 13:01:05.562 +03:00 [DBG] Loaded hosting startup assembly BePresent.Web
+2025-04-08 13:01:05.564 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-08 13:01:05.567 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-08 13:01:05.569 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-08 13:01:05.584 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 13:01:05.590 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-08 13:01:05.646 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" received FIN.
+2025-04-08 13:01:05.647 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" reset.
+2025-04-08 13:01:05.668 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" accepted.
+2025-04-08 13:01:05.668 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" accepted.
+2025-04-08 13:01:05.672 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" started.
+2025-04-08 13:01:05.674 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" started.
+2025-04-08 13:01:05.686 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:05.686 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:05.694 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" disconnecting.
+2025-04-08 13:01:05.697 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" disconnecting.
+2025-04-08 13:01:05.715 +03:00 [DBG] Connection id "0HNBMGH3GVQKU" stopped.
+2025-04-08 13:01:05.722 +03:00 [DBG] Connection id "0HNBMGH3GVQKV" stopped.
+2025-04-08 13:01:05.728 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-08 13:01:05.731 +03:00 [INF] Hosting environment: Development
+2025-04-08 13:01:05.733 +03:00 [INF] Content root path: C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Web
+2025-04-08 13:01:05.737 +03:00 [DBG] Hosting started
+2025-04-08 13:01:06.208 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" accepted.
+2025-04-08 13:01:06.211 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" started.
+2025-04-08 13:01:06.233 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" accepted.
+2025-04-08 13:01:06.236 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" started.
+2025-04-08 13:01:06.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/ - null null
+2025-04-08 13:01:06.335 +03:00 [DBG] The request path / does not match a supported file type
+2025-04-08 13:01:06.394 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-08 13:01:06.399 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/'
+2025-04-08 13:01:06.404 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:01:06.411 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:01:06.483 +03:00 [INF] Route matched with {action = "Login", controller = "AuthMvc"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 13:01:06.490 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 13:01:06.496 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:06.501 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 13:01:06.506 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 13:01:06.510 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:06.518 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:06.768 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-08 13:01:06.807 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:06.820 +03:00 [DBG] View lookup cache miss for view 'Login' in controller 'AuthMvc'.
+2025-04-08 13:01:06.844 +03:00 [INF] Executing ViewResult, running view Login.
+2025-04-08 13:01:06.852 +03:00 [DBG] The view path '/Views/AuthMvc/Login.cshtml' was found in 29.2543ms.
+2025-04-08 13:01:06.930 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 13:01:06.940 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 13:01:06.945 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 13:01:06.965 +03:00 [DBG] An antiforgery cookie token was reused.
+2025-04-08 13:01:07.020 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 13:01:07.026 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 13:01:07.030 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 13:01:07.036 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 13:01:07.094 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:07.099 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:07.103 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:07.108 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:07.112 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:07.116 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:07.121 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:07.127 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:07.132 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:07.137 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:07.141 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:07.145 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:07.166 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 13:01:07.176 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 13:01:07.185 +03:00 [INF] Executed ViewResult - view Login executed in 366.8287ms.
+2025-04-08 13:01:07.190 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web) in 675.241ms
+2025-04-08 13:01:07.194 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Login (BePresent.Web)'
+2025-04-08 13:01:07.197 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 13:01:07.201 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 13:01:07.205 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" completed keep alive response.
+2025-04-08 13:01:07.215 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/ - 200 null text/html; charset=utf-8 956.6327ms
+2025-04-08 13:01:07.262 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 13:01:07.273 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 13:01:07.276 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" completed keep alive response.
+2025-04-08 13:01:07.280 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 17.6048ms
+2025-04-08 13:01:07.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 13:01:07.486 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" completed keep alive response.
+2025-04-08 13:01:07.490 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.0328ms
+2025-04-08 13:01:10.002 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" received FIN.
+2025-04-08 13:01:10.004 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" received FIN.
+2025-04-08 13:01:10.012 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:10.014 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" disconnecting.
+2025-04-08 13:01:10.019 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" disconnecting.
+2025-04-08 13:01:10.021 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:10.024 +03:00 [DBG] Connection id "0HNBMGH3GVQL1" stopped.
+2025-04-08 13:01:10.030 +03:00 [DBG] Connection id "0HNBMGH3GVQL0" stopped.
+2025-04-08 13:01:19.107 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" accepted.
+2025-04-08 13:01:19.110 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" started.
+2025-04-08 13:01:19.206 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/AuthMvc/Register - null null
+2025-04-08 13:01:19.212 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" accepted.
+2025-04-08 13:01:19.215 +03:00 [DBG] The request path /AuthMvc/Register does not match a supported file type
+2025-04-08 13:01:19.215 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" started.
+2025-04-08 13:01:19.221 +03:00 [DBG] 1 candidate(s) found for the request path '/AuthMvc/Register'
+2025-04-08 13:01:19.223 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/AuthMvc/Register'
+2025-04-08 13:01:19.227 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:19.230 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:19.234 +03:00 [INF] Route matched with {action = "Register", controller = "AuthMvc"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 13:01:19.239 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 13:01:19.243 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:19.245 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 13:01:19.249 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 13:01:19.252 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:19.255 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:19.270 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:19.275 +03:00 [DBG] View lookup cache miss for view 'Register' in controller 'AuthMvc'.
+2025-04-08 13:01:19.280 +03:00 [INF] Executing ViewResult, running view Register.
+2025-04-08 13:01:19.283 +03:00 [DBG] The view path '/Views/AuthMvc/Register.cshtml' was found in 8.0854ms.
+2025-04-08 13:01:19.296 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 13:01:19.301 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 13:01:19.305 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 13:01:19.309 +03:00 [DBG] An antiforgery cookie token was reused.
+2025-04-08 13:01:19.332 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 13:01:19.336 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 13:01:19.340 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 13:01:19.344 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 13:01:19.349 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:19.353 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:19.356 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:19.359 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:19.362 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:19.366 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:19.369 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:19.373 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:19.377 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:19.383 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:19.387 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:19.390 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:19.394 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 13:01:19.396 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 13:01:19.399 +03:00 [INF] Executed ViewResult - view Register executed in 123.9896ms.
+2025-04-08 13:01:19.402 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web) in 147.1979ms
+2025-04-08 13:01:19.405 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:19.407 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 13:01:19.409 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 13:01:19.411 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" completed keep alive response.
+2025-04-08 13:01:19.415 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/AuthMvc/Register - 200 null text/html; charset=utf-8 209.1671ms
+2025-04-08 13:01:19.472 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 13:01:19.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 13:01:19.487 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 13:01:19.490 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" completed keep alive response.
+2025-04-08 13:01:19.498 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 16.208ms
+2025-04-08 13:01:19.508 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" completed keep alive response.
+2025-04-08 13:01:19.510 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.3144ms
+2025-04-08 13:01:20.009 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" received FIN.
+2025-04-08 13:01:20.009 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" received FIN.
+2025-04-08 13:01:20.012 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" disconnecting.
+2025-04-08 13:01:20.018 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:20.015 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:20.024 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" disconnecting.
+2025-04-08 13:01:20.026 +03:00 [DBG] Connection id "0HNBMGH3GVQL2" stopped.
+2025-04-08 13:01:20.033 +03:00 [DBG] Connection id "0HNBMGH3GVQL3" stopped.
+2025-04-08 13:01:26.419 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" accepted.
+2025-04-08 13:01:26.431 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" accepted.
+2025-04-08 13:01:26.431 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" started.
+2025-04-08 13:01:26.434 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" started.
+2025-04-08 13:01:26.438 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5056/AuthMvc/Register - application/x-www-form-urlencoded 245
+2025-04-08 13:01:26.452 +03:00 [DBG] POST requests are not supported
+2025-04-08 13:01:26.457 +03:00 [DBG] 1 candidate(s) found for the request path '/AuthMvc/Register'
+2025-04-08 13:01:26.459 +03:00 [DBG] Endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)' with route pattern '{controller=AuthMvc}/{action=Login}/{id?}' is valid for the request path '/AuthMvc/Register'
+2025-04-08 13:01:26.462 +03:00 [DBG] Request matched endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:26.465 +03:00 [INF] Executing endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:26.489 +03:00 [INF] Route matched with {action = "Register", controller = "AuthMvc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BePresent.Application.DTOs.UserRegisterDto) on controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web).
+2025-04-08 13:01:26.493 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-08 13:01:26.496 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:26.502 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-08 13:01:26.506 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-08 13:01:26.509 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-08 13:01:26.514 +03:00 [DBG] Executing controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:26.523 +03:00 [DBG] Executed controller factory for controller BePresent.Web.Controllers.AuthMvcController (BePresent.Web)
+2025-04-08 13:01:26.537 +03:00 [DBG] Connection id "0HNBMGH3GVQL4", Request id "0HNBMGH3GVQL4:00000001": started reading request body.
+2025-04-08 13:01:26.540 +03:00 [DBG] Connection id "0HNBMGH3GVQL4", Request id "0HNBMGH3GVQL4:00000001": done reading request body.
+2025-04-08 13:01:26.553 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto' ...
+2025-04-08 13:01:26.561 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto' using the name '' in request data ...
+2025-04-08 13:01:26.572 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Username' of type 'System.String' using the name 'Username' in request data ...
+2025-04-08 13:01:26.578 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Username' of type 'System.String'.
+2025-04-08 13:01:26.585 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Email' of type 'System.String' using the name 'Email' in request data ...
+2025-04-08 13:01:26.589 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Email' of type 'System.String'.
+2025-04-08 13:01:26.594 +03:00 [DBG] Attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Password' of type 'System.String' using the name 'Password' in request data ...
+2025-04-08 13:01:26.598 +03:00 [DBG] Done attempting to bind property 'BePresent.Application.DTOs.UserRegisterDto.Password' of type 'System.String'.
+2025-04-08 13:01:26.602 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto'.
+2025-04-08 13:01:26.606 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto'.
+2025-04-08 13:01:26.609 +03:00 [DBG] Attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto' ...
+2025-04-08 13:01:26.620 +03:00 [DBG] Done attempting to validate the bound parameter 'dto' of type 'BePresent.Application.DTOs.UserRegisterDto'.
+2025-04-08 13:01:26.631 +03:00 [INF] Attempting to register user with email: yuli@gmail.com
+2025-04-08 13:01:27.750 +03:00 [DBG] The property 'Gift.ReservedUserUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-04-08 13:01:27.955 +03:00 [DBG] Entity Framework Core 9.0.3 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-04-08 13:01:28.022 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __dto_Email_0)'
+2025-04-08 13:01:28.456 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Users AS u
+                WHERE u.Email == @__dto_Email_0)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Users AS u
+                WHERE u.Email == @__dto_Email_0), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: BePresent.Infrastructure.AppData.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-04-08 13:01:28.548 +03:00 [DBG] Creating DbConnection.
+2025-04-08 13:01:28.602 +03:00 [DBG] Created DbConnection. (51ms).
+2025-04-08 13:01:28.611 +03:00 [DBG] Opening connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:01:28.965 +03:00 [DBG] Opened connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:01:28.977 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-08 13:01:28.997 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2025-04-08 13:01:29.010 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (34ms).
+2025-04-08 13:01:29.031 +03:00 [DBG] Executing DbCommand [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__dto_Email_0)
+2025-04-08 13:01:29.183 +03:00 [INF] Executed DbCommand (159ms) [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__dto_Email_0)
+2025-04-08 13:01:29.218 +03:00 [DBG] Closing data reader to 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:01:29.237 +03:00 [DBG] A data reader for 'bePresent' on server 'tcp://localhost:5432' is being disposed after spending 40ms reading results.
+2025-04-08 13:01:29.248 +03:00 [DBG] Closing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:01:29.259 +03:00 [DBG] Closed connection to database 'bePresent' on server 'tcp://localhost:5432' (11ms).
+2025-04-08 13:01:29.264 +03:00 [WRN] Registration failed: Email yuli@gmail.com already exists
+2025-04-08 13:01:29.273 +03:00 [DBG] View lookup cache hit for view 'Register' in controller 'AuthMvc'.
+2025-04-08 13:01:29.277 +03:00 [INF] Executing ViewResult, running view Register.
+2025-04-08 13:01:29.279 +03:00 [DBG] The view path '/Views/AuthMvc/Register.cshtml' was found in 6.7683ms.
+2025-04-08 13:01:29.283 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Register],controller=[AuthMvc])
+2025-04-08 13:01:29.285 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /AuthMvc/Register and 
+2025-04-08 13:01:29.288 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /AuthMvc/Register
+2025-04-08 13:01:29.292 +03:00 [DBG] An antiforgery cookie token was reused.
+2025-04-08 13:01:29.296 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (action=[Login],controller=[AuthMvc])
+2025-04-08 13:01:29.300 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in  and 
+2025-04-08 13:01:29.304 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /
+2025-04-08 13:01:29.309 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'AuthMvc'.
+2025-04-08 13:01:29.312 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:29.316 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:29.320 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:29.324 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-08 13:01:29.327 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-04-08 13:01:29.331 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Index
+2025-04-08 13:01:29.335 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:29.340 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:29.343 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:29.346 +03:00 [DBG] Found the endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-08 13:01:29.350 +03:00 [DBG] Successfully processed template {controller=AuthMvc}/{action=Login}/{id?} for Route: {controller=AuthMvc}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-04-08 13:01:29.354 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=AuthMvc}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-04-08 13:01:29.358 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-08 13:01:29.360 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-08 13:01:29.361 +03:00 [INF] Executed ViewResult - view Register executed in 88.8164ms.
+2025-04-08 13:01:29.367 +03:00 [INF] Executed action BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web) in 2853.5619ms
+2025-04-08 13:01:29.371 +03:00 [INF] Executed endpoint 'BePresent.Web.Controllers.AuthMvcController.Register (BePresent.Web)'
+2025-04-08 13:01:29.376 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-08 13:01:29.378 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-08 13:01:29.380 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" completed keep alive response.
+2025-04-08 13:01:29.385 +03:00 [DBG] 'AppDbContext' disposed.
+2025-04-08 13:01:29.394 +03:00 [DBG] Disposing connection to database 'bePresent' on server 'tcp://localhost:5432'.
+2025-04-08 13:01:29.401 +03:00 [DBG] Disposed connection to database 'bePresent' on server 'tcp://localhost:5432' (6ms).
+2025-04-08 13:01:29.405 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5056/AuthMvc/Register - 200 null text/html; charset=utf-8 2967.4431ms
+2025-04-08 13:01:29.424 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_vs/browserLink - null null
+2025-04-08 13:01:29.440 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-08 13:01:29.444 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" completed keep alive response.
+2025-04-08 13:01:29.447 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-08 13:01:29.450 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3188ms
+2025-04-08 13:01:29.451 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" completed keep alive response.
+2025-04-08 13:01:29.460 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 19.7675ms
+2025-04-08 13:01:30.022 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" received FIN.
+2025-04-08 13:01:30.022 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" received FIN.
+2025-04-08 13:01:30.025 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:30.028 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:30.031 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" disconnecting.
+2025-04-08 13:01:30.033 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" disconnecting.
+2025-04-08 13:01:30.035 +03:00 [DBG] Connection id "0HNBMGH3GVQL5" stopped.
+2025-04-08 13:01:30.037 +03:00 [DBG] Connection id "0HNBMGH3GVQL4" stopped.
+2025-04-08 13:01:32.407 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" accepted.
+2025-04-08 13:01:32.410 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" started.
+2025-04-08 13:01:40.035 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" received FIN.
+2025-04-08 13:01:40.042 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-08 13:01:40.046 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" disconnecting.
+2025-04-08 13:01:40.052 +03:00 [DBG] Connection id "0HNBMGH3GVQL6" stopped.

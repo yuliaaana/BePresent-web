@@ -1,0 +1,31 @@
+﻿@model BePresent.Application.DTOs.UserRegisterDto
+
+<div class="container mt-5" style="max-width: 400px;">
+    <h2 class="text-center mb-4">Register</h2>
+
+    <form asp-action="Register" method="post">
+        <div class="mb-3">
+            <label asp-for="Username" class="form-label">Username</label>
+            <input asp-for="Username" class="form-control" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label">Password</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Register</button>
+    </form>
+
+    <div class="text-center mt-3">
+        <a asp-action="Login">Already have an account? Login</a>
+    </div>
+</div>

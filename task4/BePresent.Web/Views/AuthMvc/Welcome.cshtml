@@ -1,0 +1,22 @@
+﻿@model string
+
+<div class="container mt-5" style="max-width: 600px;">
+    <h2 class="text-center mb-4">Hello, @Model! </h2>
+    <h1 class="text-center mb-4"> Welcome to BePresent.</h1>
+
+    <div class="text-center mb-4">
+        <p>Here are some quick actions to get started:</p>
+    </div>
+
+    <div class="d-grid gap-3">
+        <a href="@Url.Action("Profile", "User")" class="btn btn-info btn-lg">Go to Profile</a>
+        <a href="@Url.Action("Index", "Boards")" class="btn btn-info btn-lg">Go to Boards</a>
+        <a href="@Url.Action("Create", "Boards")" class="btn btn-info btn-lg">Create New Board</a>
+    </div>
+
+    <div class="mt-5">
+        <div class="alert alert-info text-center" role="alert">
+            Looking for something new? Explore our boards or create your own!
+        </div>
+    </div>
+</div>

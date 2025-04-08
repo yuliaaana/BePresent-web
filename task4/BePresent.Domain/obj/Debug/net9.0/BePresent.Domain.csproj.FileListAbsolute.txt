@@ -1,0 +1,24 @@
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.deps.json
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.csproj.AssemblyReference.cache
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.AssemblyInfoInputs.cache
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.AssemblyInfo.cs
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\refint\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Юліана\source\repos\BePresent\BePresent.Domain\obj\Debug\net9.0\ref\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.deps.json
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\bin\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.csproj.AssemblyReference.cache
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.AssemblyInfoInputs.cache
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.AssemblyInfo.cs
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\refint\BePresent.Domain.dll
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Domain\obj\Debug\net9.0\ref\BePresent.Domain.dll
