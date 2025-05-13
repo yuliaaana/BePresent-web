@@ -1,40 +1,60 @@
-using BePresent.Domain.Users;
+п»їusing Microsoft.AspNetCore.Mvc;
+using BePresent.Models;
 using BePresent.Infrastructure.AppData;
-using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
-public class UsersController : Controller
+namespace BePresent.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public UsersController(AppDbContext context)
+    public class UserController : Controller
     {
-        _context = context;
-    }
+        private readonly AppDbContext _context;
 
-    // Дія для відображення списку користувачів
-    public IActionResult Index()
-    {
-        var users = _context.Users.ToList();
-        return View(users);
-    }
-
-    // Дія для створення нового користувача
-    public IActionResult Create()
-    {
-        return View();
-    }
-
-    // Дія для створення нового користувача (збереження)
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Create(User user)
-    {
-        if (ModelState.IsValid)
+        public UserController(AppDbContext context)
         {
-            _context.Add(user);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            _context = context;
         }
-        return View(user);
+
+        [HttpGet]
+        public IActionResult Profile()
+        {
+            var user = _context.Users.FirstOrDefault();
+            if (user == null)
+                return NotFound();
+
+            var model = new UserProfileViewModel
+            {
+                Username = user.Username,
+                DateOfBirth = user.DateOfBirth ?? DateTime.MinValue,
+                Gender = user.Gender ?? "",
+                Interests = user.Interests != null ? string.Join(", ", user.Interests) : ""
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Profile(UserProfileViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = _context.Users.FirstOrDefault();
+            if (user == null)
+                return NotFound();
+
+            user.DateOfBirth = DateTime.SpecifyKind(model.DateOfBirth, DateTimeKind.Utc);
+            user.Gender = model.Gender;
+            user.Interests = model.Interests?
+                .Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(i => i.Trim())
+                .ToList();
+
+            _context.SaveChanges();
+
+            ViewBag.SuccessMessage = "Profile updated successfully!";
+            return View(model);
+        }
     }
 }

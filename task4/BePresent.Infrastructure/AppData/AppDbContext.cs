@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System.Text.Json;
 using BePresent.Domain.Users;
 
 namespace BePresent.Infrastructure.AppData
@@ -19,6 +16,27 @@ namespace BePresent.Infrastructure.AppData
         public DbSet<ActionLog> ActionLogs { get; set; }
         public DbSet<EmailConfirmation> EmailConfirmations { get; set; }
 
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Конвертер для List<string> -> JSON string
+            var interestsConverter = new ValueConverter<List<string>, string>(
+                v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
+                v => JsonSerializer.Deserialize<List<string>>(v, (JsonSerializerOptions)null) ?? new List<string>()
+            );
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Interests)
+                .HasColumnType("text[]");
+            modelBuilder.Entity<Gift>()
+                .HasOne(g => g.ReservedUser)
+                .WithMany()
+                .HasForeignKey(g => g.ReservedBy)
+                .IsRequired(false);
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 }
+

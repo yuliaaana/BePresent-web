@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Web\\BePresent.Web.csproj": {}
+    "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Web\\BePresent.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\BePresent.Application.csproj": {
+    "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\BePresent.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\BePresent.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\BePresent.Application.csproj",
         "projectName": "BePresent.Application",
-        "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\BePresent.Application.csproj",
+        "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\BePresent.Application.csproj",
         "packagesPath": "C:\\Users\\Юліана\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\obj\\",
+        "outputPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj"
               },
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj"
               }
             }
           }
@@ -61,31 +61,13 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "Roslynator.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.13.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.Seq": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -108,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj": {
+    "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj",
         "projectName": "BePresent.Domain",
-        "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj",
+        "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj",
         "packagesPath": "C:\\Users\\Юліана\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -158,31 +140,13 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "Roslynator.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.13.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.Seq": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -205,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
+    "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
         "projectName": "BePresent.Infrastructure",
-        "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Юліана\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,8 +197,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj"
               }
             }
           }
@@ -265,31 +229,13 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "Roslynator.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.13.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.Seq": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -312,14 +258,14 @@
         }
       }
     },
-    "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Web\\BePresent.Web.csproj": {
+    "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Web\\BePresent.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Web\\BePresent.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Web\\BePresent.Web.csproj",
         "projectName": "BePresent.Web",
-        "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Web\\BePresent.Web.csproj",
+        "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Web\\BePresent.Web.csproj",
         "packagesPath": "C:\\Users\\Юліана\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Web\\obj\\",
+        "outputPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -340,14 +286,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\BePresent.Application.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Application\\BePresent.Application.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\BePresent.Application.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Application\\BePresent.Application.csproj"
               },
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Domain\\BePresent.Domain.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Domain\\BePresent.Domain.csproj"
               },
-              "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Юліана\\source\\repos\\BePresent – копія\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj"
+              "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Юліана\\Desktop\\engineering\\BePresent-web\\task4\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj"
               }
             }
           }
@@ -378,31 +324,13 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "Roslynator.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.13.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.Seq": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             }
           },
           "imports": [

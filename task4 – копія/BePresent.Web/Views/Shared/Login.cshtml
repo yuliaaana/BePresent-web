@@ -1,0 +1,15 @@
+﻿@model BePresent.Application.DTOs.UserLoginDto
+
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+    <label>Email:</label>
+    <input asp-for="Email" />
+    <br />
+    <label>Password:</label>
+    <input asp-for="Password" type="password" />
+    <br />
+    <button type="submit">Login</button>
+</form>
+
+<a asp-action="Register">Don't have an account? Register</a>

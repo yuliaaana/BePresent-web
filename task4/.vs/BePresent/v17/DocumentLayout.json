@@ -1,86 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\",
+  "WorkspaceRootPath": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|solutionrelative:bepresent.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|solutionrelative:bepresent.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.infrastructure\\bepresent.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|solutionrelative:bepresent.infrastructure\\bepresent.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\controllers\\authmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\authmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\authmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.infrastructure\\appdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|solutionrelative:bepresent.infrastructure\\appdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\boards\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\boards\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A137A2D4-FC87-4DDD-B2C1-D9B6EDEA4089}|BePresent.Domain\\BePresent.Domain.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\boards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\boards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A137A2D4-FC87-4DDD-B2C1-D9B6EDEA4089}|BePresent.Domain\\BePresent.Domain.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A137A2D4-FC87-4DDD-B2C1-D9B6EDEA4089}|BePresent.Domain\\BePresent.Domain.csproj|solutionrelative:bepresent.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\authcontroller - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\authcontroller - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.application\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\models\\boardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\models\\boardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.infrastructure\\appdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}|BePresent.Infrastructure\\BePresent.Infrastructure.csproj|solutionrelative:bepresent.infrastructure\\appdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\DB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:DB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.application\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|solutionrelative:bepresent.application\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\views\\authmvc\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|solutionrelative:bepresent.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\authmvc\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\authmvc\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\views\\authmvc\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\authmvc\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\views\\authmvc\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\authmvc\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\authmvc\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.application\\bepresent.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B734C4D0-A6EB-47FB-BAFF-38E21CEC12CC}|BePresent.Application\\BePresent.Application.csproj|solutionrelative:bepresent.application\\bepresent.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\bepresent \u2013 \u043A\u043E\u043F\u0456\u044F\\bepresent.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|c:\\users\\\u044E\u043B\u0456\u0430\u043D\u0430\\downloads\\telegram desktop\\bepresent (3)\\bepresent (2)\\bepresent\\bepresent.web\\views\\authmvc\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A783783D-F4B2-4233-8A95-014741EE7832}|BePresent.Web\\BePresent.Web.csproj|solutionrelative:bepresent.web\\views\\authmvc\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\DB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:DB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,132 +134,204 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".editorconfig",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\.editorconfig",
-              "RelativeDocumentMoniker": ".editorconfig",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\.editorconfig",
-              "RelativeToolTip": ".editorconfig",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-08T09:39:22.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Program.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Program.cs",
-              "RelativeToolTip": "BePresent.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:03:05.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BePresent.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "BePresent.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:54:55.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BePresent.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BePresent.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Title": "AuthMvcController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthMvcController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\AuthMvcController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthMvcController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\AuthMvcController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:50:15.405Z",
+              "WhenOpened": "2025-04-05T12:07:40.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BePresent.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
-              "RelativeToolTip": "BePresent.Infrastructure\\BePresent.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T11:52:23.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\UserController.cs",
-              "RelativeToolTip": "BePresent.Web\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:10:52.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Infrastructure\\AppData\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BePresent.Infrastructure\\AppData\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Infrastructure\\AppData\\AppDbContext.cs",
-              "RelativeToolTip": "BePresent.Infrastructure\\AppData\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:46:32.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Domain\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "BePresent.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Domain\\Entities\\User.cs",
               "RelativeToolTip": "BePresent.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA/wFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T19:31:20.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\BoardsController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\BoardsController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\BoardsController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\BoardsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:15:29.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Boards\\Index.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Boards\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Boards\\Index.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\Boards\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T19:25:57.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Boards\\Create.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Boards\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Boards\\Create.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\Boards\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T19:26:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:57:19.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:09:02.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController - Copy.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthController - Copy.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\AuthController - Copy.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\AuthController - Copy.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\AuthController - Copy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:12:53.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "BePresent.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\appsettings.json",
-              "RelativeToolTip": "BePresent.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-04T20:23:22.167Z",
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:15:26.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BoardsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Models\\BoardsViewModel.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Models\\BoardsViewModel.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Models\\BoardsViewModel.cs",
+              "RelativeToolTip": "BePresent.Web\\Models\\BoardsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:56:59.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Program.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Program.cs",
+              "RelativeToolTip": "BePresent.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:03:05.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Infrastructure\\AppData\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BePresent.Infrastructure\\AppData\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Infrastructure\\AppData\\AppDbContext.cs",
+              "RelativeToolTip": "BePresent.Infrastructure\\AppData\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:46:32.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "DB.sql ",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\DB.sql",
+              "RelativeDocumentMoniker": "DB.sql",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\DB.sql",
+              "RelativeToolTip": "DB.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-13T14:26:46.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "BePresent.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\appsettings.json",
+              "RelativeToolTip": "BePresent.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T07:12:56.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UserRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\DTOs\\UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Application\\DTOs\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "BePresent.Application\\DTOs\\UserRegisterDto.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\DTOs\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Application\\DTOs\\UserRegisterDto.cs",
               "RelativeToolTip": "BePresent.Application\\DTOs\\UserRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,133 +340,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BePresent.Web\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:57:19.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthMvcController.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\AuthMvcController.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\AuthMvcController.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\AuthMvcController.cs",
-              "RelativeToolTip": "BePresent.Web\\Controllers\\AuthMvcController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDcAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T12:07:40.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BePresent.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:10:19.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
-              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
-              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T12:00:40.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
-              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
-              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T12:00:31.695Z",
+              "WhenOpened": "2025-05-12T19:19:37.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "BePresent.Web\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "BePresent.Web\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BePresent.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "BePresent.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAD4vykAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T12:12:12.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Welcome.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
-              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
-              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T13:15:50.653Z",
+              "WhenOpened": "2025-04-05T11:54:55.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Users\\Create.cshtml",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "BePresent.Web\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T20:12:22.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T13:15:50.653Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "BePresent.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\BePresent.Application.csproj",
-              "RelativeDocumentMoniker": "BePresent.Application\\BePresent.Application.csproj",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Application\\BePresent.Application.csproj",
-              "RelativeToolTip": "BePresent.Application\\BePresent.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T11:48:57.758Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T20:11:54.418Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\source\\repos\\BePresent \u2013 \u043A\u043E\u043F\u0456\u044F\\BePresent.Web\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "BePresent.Web\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T20:11:54.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T12:00:40.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T20:12:22.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BePresent.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BePresent.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:10:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
+              "RelativeDocumentMoniker": "BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
+              "ToolTip": "C:\\Users\\\u042E\u043B\u0456\u0430\u043D\u0430\\Downloads\\Telegram Desktop\\BePresent (3)\\BePresent (2)\\BePresent\\BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
+              "RelativeToolTip": "BePresent.Web\\Views\\AuthMvc\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T12:00:31.695Z"
             }
           ]
         }

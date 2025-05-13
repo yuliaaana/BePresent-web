@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Security.Cryptography;
 using System.Text;
-using Serilog;
 
 namespace BePresent.Application.Services
 {
@@ -21,61 +20,32 @@ namespace BePresent.Application.Services
 
         public async Task<User?> RegisterUserAsync(UserRegisterDto dto)
         {
-            try
+            if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
+                return null;
+
+            var user = new User
             {
-                Log.Information("Attempting to register user with email: {Email}", dto.Email);
+                Username = dto.Username,
+                Email = dto.Email,
+                Password = HashPassword(dto.Password),
+                IsAuthorized = true
+            };
 
-                if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
-                {
-                    Log.Warning("Registration failed: Email {Email} already exists", dto.Email);
-                    return null;
-                }
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
 
-                var user = new User
-                {
-                    Username = dto.Username,
-                    Email = dto.Email,
-                    Password = HashPassword(dto.Password),
-                    IsAuthorized = true
-                };
-
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
-
-                Log.Information("User registered successfully with email: {Email}", dto.Email);
-                return user;
-            }
-            catch (Exception ex)
-            {
-                Log.Error(ex, "An error occurred during user registration for email: {Email}", dto.Email);
-                throw;
-            }
+            return user;
         }
 
         public async Task<User?> LoginUserAsync(UserLoginDto dto)
         {
-            try
-            {
-                Log.Information("Attempting to login user with email: {Email}", dto.Email);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            if (user == null || user.Password != HashPassword(dto.Password))
+                return null;
 
-                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
-                if (user == null || user.Password != HashPassword(dto.Password))
-                {
-                    Log.Warning("Login failed for email: {Email}", dto.Email);
-                    return null;
-                }
-
-                user.IsAuthorized = true;
-                await _context.SaveChangesAsync();
-
-                Log.Information("User logged in successfully with email: {Email}", dto.Email);
-                return user;
-            }
-            catch (Exception ex)
-            {
-                Log.Error(ex, "An error occurred during user login for email: {Email}", dto.Email);
-                throw;
-            }
+            user.IsAuthorized = true;
+            await _context.SaveChangesAsync();
+            return user;
         }
 
         private string HashPassword(string password)

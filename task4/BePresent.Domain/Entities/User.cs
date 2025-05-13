@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+
 using System.ComponentModel.DataAnnotations;  // Додаємо простір імен для атрибутів
 
 namespace BePresent.Domain.Users
@@ -26,7 +28,7 @@ namespace BePresent.Domain.Users
         [Key]  // Вказуємо, що це первинний ключ
         public int BoardId { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; } = default!;
+        public User? User { get; set; }
         public string Name { get; set; } = default!;
         public DateTime? CelebrationDate { get; set; }
         public List<int>? Collaborators { get; set; }
@@ -35,23 +37,40 @@ namespace BePresent.Domain.Users
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public ICollection<Gift> Gifts { get; set; } = new List<Gift>();
+
+        public GiftBoard()
+        {
+            // Make sure any other DateTime fields are in UTC
+            if (CelebrationDate.HasValue)
+            {
+                CelebrationDate = CelebrationDate.Value.ToUniversalTime();
+            }
+        }
     }
 
-    public class Gift
+
+public class Gift
     {
-        [Key]  // Вказуємо, що це первинний ключ
+        [Key]
         public int GiftId { get; set; }
+
         public int BoardId { get; set; }
         public GiftBoard Board { get; set; } = default!;
+
         public string Name { get; set; } = default!;
         public string? Description { get; set; }
         public string? Link { get; set; }
         public string? ImageUrl { get; set; }
+
         public bool IsReserved { get; set; } = false;
         public int? ReservedBy { get; set; }
+
+        [ForeignKey("ReservedBy")]
         public User? ReservedUser { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
+
 
     public class GiftReservation
     {

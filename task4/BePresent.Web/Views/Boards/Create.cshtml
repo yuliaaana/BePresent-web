@@ -1,0 +1,118 @@
+﻿@model BePresent.Domain.Users.GiftBoard
+
+@{
+    ViewData["Title"] = "Нова дошка";
+}
+
+<div class="board-container">
+    <h1 class="title">New board</h1>
+
+    <form asp-action="Create" method="post" class="board-form">
+        <!-- Назва дошки -->
+        <div class="form-group">
+            <label asp-for="Name" class="form-label">Name of board</label>
+            <input asp-for="Name" class="form-input" placeholder="Arrivariony" />
+            <span asp-validation-for="Name" class="validation-error"></span>
+        </div>
+
+        <!-- Дата святкування -->
+        <div class="form-group">
+            <label asp-for="CelebrationDate" class="form-label">Celebration date</label>
+            <input asp-for="CelebrationDate" type="date" class="form-input date-input" />
+        </div>
+
+        <!-- Рівень доступу -->
+        <div class="form-group">
+            <label asp-for="AccessLevel" class="form-label">Access</label>
+            <div class="access-options">
+                <label class="radio-option">
+                    <input type="radio" asp-for="AccessLevel" value="public" />
+                    <span class="radio-checkmark"></span>
+                    Public
+                </label>
+                <label class="radio-option">
+                    <input type="radio" asp-for="AccessLevel" value="friends_only" />
+                    <span class="radio-checkmark"></span>
+                    Only for friends
+                </label>
+                <label class="radio-option">
+                    <input type="radio" asp-for="AccessLevel" value="private" />
+                    <span class="radio-checkmark"></span>
+                    Private
+                </label>
+            </div>
+        </div>
+
+        <!-- Опис -->
+        <div class="form-group">
+            <label asp-for="Description" class="form-label">Add description</label>
+            <textarea asp-for="Description" class="form-textarea" placeholder="None"></textarea>
+        </div>
+
+        <!-- Кнопки -->
+        <div class="form-buttons">
+            <button type="button" class="btn-discard">Discard</button>
+            <button type="submit" class="btn-save">Save</button>
+        </div>
+    </form>
+</div>
+
+<style>
+    .board-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .title {
+        color: #2d3748;
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        margin-top: 0.5rem;
+    }
+
+    .access-options {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .radio-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .btn-discard, .btn-save {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .btn-discard {
+        background: #f56565;
+        color: white;
+    }
+
+    .btn-save {
+        background: #48bb78;
+        color: white;
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

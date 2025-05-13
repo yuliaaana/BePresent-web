@@ -1,0 +1,43 @@
+﻿@model BePresent.Models.UserProfileViewModel
+
+@{
+    ViewData["Title"] = "Your profile";
+}
+
+<div class="container mt-5" style="max-width: 500px;">
+    <h2 class="mb-4"><strong>Your profile</strong></h2>
+
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+    }
+
+    <form asp-action="Profile" method="post">
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input asp-for="Username" class="form-control" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Date of birth</label>
+            <input asp-for="DateOfBirth" class="form-control" type="date" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Стать:</label>
+            <select asp-for="Gender" class="form-select">
+                <option value="">Оберіть стать</option>
+                <option value="Жінка">Жінка</option>
+                <option value="Чоловік">Чоловік</option>
+                <option value="Інше">Інше</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Interests (comma separated)</label>
+            <input asp-for="Interests" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+</div>

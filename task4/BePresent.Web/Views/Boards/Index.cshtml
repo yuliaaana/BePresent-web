@@ -1,0 +1,59 @@
+﻿@using BePresent.Domain.Users
+@model IEnumerable<GiftBoard>
+
+@{
+    ViewData["Title"] = "Your Giftboards";
+}
+
+<h2>Giftboards</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="giftboard-list">
+        @foreach (var board in Model)
+        {
+            <div class="giftboard-item">
+                <h3>@board.Name</h3>
+                <p><strong>Дата святкування:</strong> @(board.CelebrationDate?.ToShortDateString() ?? "Не вказано")</p>
+                <p><strong>Опис:</strong> @board.Description</p>
+                <p><strong>Доступ:</strong> @board.AccessLevel</p>
+
+                @* Посилання для перегляду подарунків цієї дошки *@
+                <a class="btn btn-info" asp-controller="GiftBoard" asp-action="Index" asp-route-boardId="@board.BoardId">Переглянути подарунки</a>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-info">У вас поки немає жодної дошки.</div>
+}
+
+<style>
+    .giftboard-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .giftboard-item {
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+        .giftboard-item h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+    .btn-info {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 0.4rem 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+</style>

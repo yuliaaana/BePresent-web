@@ -15,20 +15,37 @@ C:\Users\Юліана\source\repos\BePresent\BePresent.Application\obj\Debug\net
 C:\Users\Юліана\source\repos\BePresent\BePresent.Application\obj\Debug\net9.0\refint\BePresent.Application.dll
 C:\Users\Юліана\source\repos\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.pdb
 C:\Users\Юліана\source\repos\BePresent\BePresent.Application\obj\Debug\net9.0\ref\BePresent.Application.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Application.deps.json
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Application.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Application.pdb
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.pdb
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.pdb
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.AssemblyReference.cache
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfoInputs.cache
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfo.cs
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.CoreCompileInputs.cache
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresen.7CD8A019.Up2Date
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\refint\BePresent.Application.dll
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\BePresent.Application.pdb
-C:\Users\Юліана\source\repos\BePresent – копія\BePresent.Application\obj\Debug\net9.0\ref\BePresent.Application.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.deps.json
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.pdb
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.pdb
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.AssemblyReference.cache
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfoInputs.cache
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfo.cs
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.CoreCompileInputs.cache
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresen.7CD8A019.Up2Date
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\refint\BePresent.Application.dll
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.pdb
+C:\Users\Khrystyna\Downloads\Telegram Desktop\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\ref\BePresent.Application.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.deps.json
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Application.pdb
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Domain.pdb
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\bin\Debug\net9.0\BePresent.Infrastructure.pdb
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.AssemblyReference.cache
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfoInputs.cache
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.AssemblyInfo.cs
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.csproj.CoreCompileInputs.cache
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresen.7CD8A019.Up2Date
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\refint\BePresent.Application.dll
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\BePresent.Application.pdb
+C:\Users\Юліана\Downloads\Telegram Desktop\BePresent (3)\BePresent (2)\BePresent\BePresent.Application\obj\Debug\net9.0\ref\BePresent.Application.dll

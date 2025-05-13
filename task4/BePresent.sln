@@ -16,9 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BePresent.Infrastructure", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
 		DB.sql = DB.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BePresentTest", "BePresentTest\BePresentTest.csproj", "{43D55F41-A073-4AF6-B91F-AAB8B524E095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +43,10 @@ Global
 		{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344A79A6-80AB-4C06-AAE5-A4A1B92B921B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D55F41-A073-4AF6-B91F-AAB8B524E095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D55F41-A073-4AF6-B91F-AAB8B524E095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D55F41-A073-4AF6-B91F-AAB8B524E095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D55F41-A073-4AF6-B91F-AAB8B524E095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

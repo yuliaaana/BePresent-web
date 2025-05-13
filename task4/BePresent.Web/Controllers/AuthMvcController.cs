@@ -38,6 +38,7 @@ namespace BePresent.Web.Controllers
 
             // У майбутньому тут можна зберігати у сесію або cookie
             //return RedirectToAction("Index", "Home");
+            HttpContext.Session.SetInt32("UserId", user.UserId);
             return RedirectToAction("Welcome", new { username = user.Username });
         }
 
