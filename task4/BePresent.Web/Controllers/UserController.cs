@@ -19,16 +19,23 @@ namespace BePresent.Controllers
         [HttpGet]
         public IActionResult Profile()
         {
+            // Тут краще отримувати користувача з урахуванням сесії/аутентифікації,
+            // а не просто першого з бази.
+            // Для прикладу:
+            // var userId = HttpContext.Session.GetInt32("UserId");
+            // if(userId == null) return RedirectToAction("Login", "AuthMvc");
+            // var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+
             var user = _context.Users.FirstOrDefault();
             if (user == null)
                 return NotFound();
 
             var model = new UserProfileViewModel
             {
-                Username = user.Username,
+                Username = user.UserName,   // Зверни увагу: UserName, не Username
                 DateOfBirth = user.DateOfBirth ?? DateTime.MinValue,
-                Gender = user.Gender ?? "",
-                Interests = user.Interests != null ? string.Join(", ", user.Interests) : ""
+                Gender = user.Gender ?? string.Empty,
+                Interests = user.Interests != null ? string.Join(", ", user.Interests) : string.Empty
             };
 
             return View(model);
@@ -46,10 +53,12 @@ namespace BePresent.Controllers
 
             user.DateOfBirth = DateTime.SpecifyKind(model.DateOfBirth, DateTimeKind.Utc);
             user.Gender = model.Gender;
-            user.Interests = model.Interests?
-                .Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(i => i.Trim())
-                .ToList();
+            user.Interests = !string.IsNullOrWhiteSpace(model.Interests)
+                ? model.Interests
+                    .Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(i => i.Trim())
+                    .ToList()
+                : new List<string>();
 
             _context.SaveChanges();
 

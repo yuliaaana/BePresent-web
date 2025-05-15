@@ -3,11 +3,18 @@
 <div class="container mt-5" style="max-width: 400px;">
     <h2 class="text-center mb-4">Register</h2>
 
+    @if (TempData["RegisterMessage"] != null)
+    {
+        <div class="alert alert-info text-center">
+            @TempData["RegisterMessage"]
+        </div>
+    }
+
     <form asp-action="Register" method="post">
         <div class="mb-3">
-            <label asp-for="Username" class="form-label">Username</label>
-            <input asp-for="Username" class="form-control" />
-            <span asp-validation-for="Username" class="text-danger"></span>
+            <label asp-for="UserName" class="form-label">Username</label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
@@ -28,4 +35,30 @@
     <div class="text-center mt-3">
         <a asp-action="Login">Already have an account? Login</a>
     </div>
+
+    <div class="password-requirements mt-4">
+        <h4>Password requirements:</h4>
+        <ul>
+            <li>At least 6 characters</li>
+            <li>At least one uppercase letter (A-Z)</li>
+            <li>At least one lowercase letter (a-z)</li>
+            <li>At least one digit (0-9)</li>
+            <li>At least one special character (!#$%^&* etc.)</li>
+        </ul>
+    </div>
 </div>
+
+<style>
+.password-requirements {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+.password-requirements h4 {
+    margin-top: 0;
+}
+</style>

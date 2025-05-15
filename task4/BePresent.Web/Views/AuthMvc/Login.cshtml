@@ -3,6 +3,16 @@
 <div class="container mt-5" style="max-width: 400px;">
     <h2 class="text-center mb-4">Login</h2>
 
+    @if (TempData["RegisterMessage"] != null)
+    {
+        <div class="alert alert-info text-center">
+            @TempData["RegisterMessage"]
+        </div>
+    }
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger text-center" })
+
+
     <form asp-action="Login" method="post">
         <div class="mb-3">
             <label asp-for="Email" class="form-label">Email</label>

@@ -2,10 +2,14 @@
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System.Text.Json;
 using BePresent.Domain.Users;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace BePresent.Infrastructure.AppData
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 

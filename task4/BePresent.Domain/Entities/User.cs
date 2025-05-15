@@ -1,18 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
+
 
 using System.ComponentModel.DataAnnotations;  // Додаємо простір імен для атрибутів
 
 namespace BePresent.Domain.Users
 {
-    public class User
+    /*public class User
     {
         [Key]  // Вказуємо, що це первинний ключ
         public int UserId { get; set; }
         public string Username { get; set; } = default!;
         public string? Email { get; set; } = default!;
         public string Password { get; set; } = default!;
+        public DateTime? DateOfBirth { get; set; }
+        public string? Gender { get; set; }
+        public List<string>? Interests { get; set; }
+        public bool IsAuthorized { get; set; }
+
+        public ICollection<GiftBoard> GiftBoards { get; set; } = new List<GiftBoard>();
+        public ICollection<GiftReservation> GiftReservations { get; set; } = new List<GiftReservation>();
+        public ICollection<ActionLog> ActionLogs { get; set; } = new List<ActionLog>();
+    }*/
+
+    public class User : IdentityUser<int>  // <--- головна зміна тут
+    {
         public DateTime? DateOfBirth { get; set; }
         public string? Gender { get; set; }
         public List<string>? Interests { get; set; }
